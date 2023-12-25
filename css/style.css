@@ -1,0 +1,142 @@
+* {
+    max-width: 100vw;
+    font-family: arial;
+
+
+}
+
+.bag-img{
+    position: relative;
+     background-image: url(/Netflix-clone/img/hero\ img.jpg);
+    width: 1520px;
+    height: 700px;
+    background-size: cover;
+}
+.bag-img::before{
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0,0,0,0.65);
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 92px;
+    width: 100%;
+    background: transparent;
+    position: relative;
+    z-index: 1;
+}
+
+.logo img {
+    width: 148px;
+    height: 40px;
+}
+
+.left {
+    background: transparent;
+}
+.right{
+    display: flex;
+    justify-content: space-between;  
+    background: transparent; 
+}
+.right div {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+
+}
+.lang{
+
+    color: rgb(255,255,255);
+    width: 125px;
+    height: 32px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.sign-in{
+    background-color: red;
+    border: none;
+    color: rgb(255,255,255) ;
+    width: 75px;
+    height: 32px;
+    border-radius: 5px;
+    
+}
+.hero-section{
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 295px;
+}
+.hero-cont{
+    width: 1170px;
+    color: white;
+    text-align: center;
+}
+.hero-cont h1{
+    font-size: 3.2rem;
+    font-weight: bold;
+}
+.hero-cont h2{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.hero-cont p{
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+.hero-email-input{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 56px;
+    
+}
+.hero-email-input span{
+    margin: 10px;
+}
+
+.email-input{
+    width: 375px;
+    height: 56px;
+    border-width:0px ;
+    border: none;
+    background: transparent;
+    background-color: rgba(0, 0, 0, 0.608);
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+input.email-input{
+    height: 55px;
+}
+.btn{
+    width: 203px;
+    height: 56px;
+    background-color: red;
+    color: white;
+    display: flex;
+    font-family: Arial;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 5px;
+
+}
+.cont-1{
+    width: 1520px;
+    height: 582px;
+    background-color: black;
+}
